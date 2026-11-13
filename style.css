@@ -17,7 +17,7 @@ body {
 
 .calculator {
   width: 100%;
-  max-width: 360px;
+  max-width: 350px;
   background: #111827;
   padding: 24px;
   border-radius: 24px;
@@ -79,8 +79,8 @@ button {
   height: 62px;
   border: none;
   border-radius: 14px;
-  background: #1f2937;
-  color: white;
+  background:whitesmoke;
+  color: black;
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
@@ -88,7 +88,7 @@ button {
 }
 
 button:hover {
-  background: #374151;
+  background: #59ce72;
   transform: translateY(-2px);
 }
 
@@ -97,17 +97,17 @@ button:active {
 }
 
 .special {
-  background: #334155;
-  color: #a5b4fc;
+  background: #e2e5e9;
+  color: #080808;
 }
 
 .special:hover {
-  background: #475569;
+  background: #f0f1f3;
 }
 
 .operator {
-  background: #6d28d9;
-  color: white;
+  background-color:white;
+  color: rgb(12, 12, 12);
 }
 
 .operator:hover {
@@ -115,12 +115,12 @@ button:active {
 }
 
 button[data-action="equals"] {
-  background: #8b5cf6;
+  background: #04fa56;
   
 }
 
 button[data-action="equals"]:hover {
-  background: #a78bfa;
+  background: #07e02b;
 }
 
 @media (max-width: 400px) {
